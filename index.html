@@ -484,6 +484,7 @@
               name="email"
               placeholder="E-mail"
               class="input-form"
+              id="send-email"
             />
           </label>
           <button class="form-btm" type="submit">
@@ -498,7 +499,7 @@
     </footer>
     <div class="modal-overlay">
       <div class="modal">
-        <button class="modal-close">
+        <button class="modal-close" type="button">
         <svg width="8" height="8" class="fotter-icon-form">
           <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
         </svg>
@@ -532,7 +533,10 @@
           </div>
           <div class="checkbox">
             <input type="checkbox" class="visually-hidden"   name="user-privacy" id="user-privacy" value="true">
-            <label for="user-privacy" class="checkbox-label"><span class="overlay-span"></span>I accept the terms and conditions of the <a href="" class="Privacy-Policy">Privacy Policy</a></label>
+            <label for="user-privacy" class="checkbox-label">
+              <span class="overlay-span"><svg width="10" height="8" class="icon-yes">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg></span>I accept the terms and conditions of the <a href="#" class="privacy-policy">Privacy Policy</a></label>
           </div>
           <button class="overlay-buttom">Send</button>
            
