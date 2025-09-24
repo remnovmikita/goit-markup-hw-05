@@ -528,6 +528,7 @@ padding-bottom: 8px;
 padding-left: 16px;
 background-color: #2e2f42;;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background-color: transparent;
 }
 .input-form::placeholder{
     color: #ffffff;
@@ -735,7 +736,7 @@ textarea:focus{
         border: none;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.visually-hidden:checked + .overlay-span{
+.visually-hidden:checked + .checkbox-label .icon-yes{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
